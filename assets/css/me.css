@@ -8,8 +8,8 @@ Version: 0.2.2
 */
 /* -- CSS Reset -- */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
-@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Molengo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -107,7 +107,8 @@ html {
 body.page-template-page-fullsingle-me {
   height: 100vh;
   background-color: #141414;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'PT Sans', sans-serif;
   font-weight: 500;
   font-size: 45px;
   line-height: 60px;
