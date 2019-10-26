@@ -182,7 +182,7 @@ body.page-template-page-fullsingle-me {
               align-self: center; } }
 
 
-  .logo img, .logo a {
+  .logo, .logo img {
     max-height: 125px;
     max-height: auto;
     display: block;
