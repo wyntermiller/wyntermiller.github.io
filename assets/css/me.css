@@ -363,4 +363,5 @@ body.page-template-page-fullsingle-me.me-video {
 
 .roundImg {
   border-radius: 50%;
+  border-collapse: separate;
 }
