@@ -243,7 +243,8 @@ body.page-template-page-fullsingle-me {
     -webkit-transition: 1s;
     transition: 1s; }
     .bio a:hover {
-      color: #DC143C;
+      /*color: #DC143C;*/
+      color: #5c9968;
       -webkit-transition: 0.1s;
       transition: 0.1s; }
 
@@ -315,7 +316,8 @@ body.page-template-page-fullsingle-me {
     -webkit-transition: 1s;
     transition: 1s; }
     .social a:hover {
-      color: #DC143C;
+      /*color: #DC143C;*/
+      color: #5c9968;
       -webkit-transition: 0.1s;
       transition: 0.1s; }
 
