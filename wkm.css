@@ -8,7 +8,13 @@ body {
     padding: 0;
     background-color: white;
     color: black;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 
 /*Top Header Size*/
@@ -63,10 +69,44 @@ nav a {
     margin: 0 auto 2rem auto;
 }
 
+.contact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.contact-flex h2 {
+    margin: 0px !important;
+    padding: -5rem !important;
+    justify-content: left !important;
+    text-align: left !important;
+}
+
+.contact-flex p {
+    text-align: left !important;
+}
+
+.contact-image {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem auto;
+    align-items: left !important;
+}
+
 .text-content {
-    width: 70%;
+    width: 40%;
     margin: 0 auto;
     text-align: left;
+    line-height: 1.6;
+}
+
+.contact-content {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
     line-height: 1.6;
 }
 
@@ -74,7 +114,7 @@ footer {
     text-align: center;
     padding: 2rem 0;
     margin-top: 2rem;
-    border-top: 1px solid black;
+    /*border-top: 1px solid black;*/
 }
 
 .social-icons {
