@@ -16,10 +16,15 @@ body {
 }
 
 
-
 /*Top Header Size*/
 h1 {
     font-size: 55px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
 }
 
 /*Paragraph text size*/
@@ -32,6 +37,7 @@ h2 {
     font-size: 43px;
 }
 
+
 /*Navigation bar text size*/
 nav {
    font-size: 20px;
@@ -42,6 +48,13 @@ nav {
 header {
     text-align: center;
     padding: 2rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
 }
 
 h1 {
@@ -62,6 +75,24 @@ nav a {
     font-weight: bold;
 }
 
+.header h2 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+    .header h2 {
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+}
+
+.contact-email a {
+    color: #000000;
+}
+
 .main-image {
     width: 70%;
     height: auto;
@@ -69,31 +100,24 @@ nav a {
     margin: 0 auto 2rem auto;
 }
 
-.contact-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 15rem;
-    margin-right: 15rem;
-}
-
-.contact-flex h2 {
-    margin: 0px !important;
-    padding: -5rem !important;
-    justify-content: left !important;
-    text-align: left !important;
-}
-
-.contact-flex p {
-    text-align: left !important;
-}
 
 .contact-image {
-    width: 30%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto 2rem auto;
     align-items: left !important;
+    /*margin-left: 27rem;*/
+}
+
+@media screen and (max-width: 600px) {
+    .contact-image {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto 2rem auto;
+        align-items: left !important;
+    }
 }
 
 .text-content {
@@ -103,11 +127,75 @@ nav a {
     line-height: 1.6;
 }
 
+@media screen and (max-width: 600px) {
+    .text-content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6;
+        }
+
+    .text-content h4 {
+        text-align: left;
+        }
+
+    h2 {
+        font-size: 35px;
+    }
+}
+
+
+.text-content a {
+    color: #800400;
+}
+
 .contact-content {
     width: 40%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     line-height: 1.6;
+}
+
+.contact-content h3 {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .contact-content h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6;
+        }
+
+    .contact-email {
+        font-size: 1rem;
+    }
+}
+
+li span {
+  position: relative;
+  left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+        
+    li {
+        text-align: left !important;
+    }
+
+    li span {
+        position: relative;
+        left: .1rem;
+        text-align: left !important;
+    }
 }
 
 footer {
