@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '<footer>' +
       '<div class="social-icons">' +
         '<a href="mailto:editorial@wyntermiller.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>' +
-        '<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>' +
+        '<a href="https://instagram.com/wynterkmiller" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>' +
         '<!--<a href="#" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>' +
         '<a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>-->' +
       '</div>' +
