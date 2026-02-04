@@ -371,9 +371,15 @@ footer {
 
 
   .service-item {
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .service-item:last-child {
+    border-bottom: none;
   }
 
   .service-name {
